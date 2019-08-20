@@ -4,8 +4,6 @@
 <dict>
 	<key>CFBundleDisplayName</key>
 	<string>ContainerApp</string>
-	<key>CFBundleIdentifier</key>
-	<string>com.yunlei.container</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
@@ -36,5 +34,7 @@
 	<string>Resources/images.xcassets/LaunchImage.launchimage</string>
 	<key>CFBundleName</key>
 	<string>ContainerApp</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.evkhramk.iosxamarinextensionapp</string>
 </dict>
 </plist>
