@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{219BB3E5-A27B-4104-B1D2-CF4E898A7EFF}</ProjectGuid>
+    <ProjectGuid>{D0997DB1-0D98-466E-9B1D-22C3A6B38A9E}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
@@ -26,8 +26,6 @@
     <MtouchArch>x86_64</MtouchArch>
     <MtouchLink>None</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
-    <CodesignProvision>iosxamarinextensionapp</CodesignProvision>
-    <CodesignKey>iPhone Developer</CodesignKey>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>none</DebugType>
@@ -47,7 +45,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <MtouchArch>ARM64</MtouchArch>
-    <CodesignKey>iPhone Developer: Evgeniy Khramkov (3JP3XQN2VC)</CodesignKey>
+    <CodesignKey>iPhone Developer</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
@@ -60,7 +58,6 @@
     <MtouchArch>ARM64</MtouchArch>
     <CodesignKey>iPhone Developer</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
-    <CodesignProvision>iosxamarinextensionapp</CodesignProvision>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
@@ -129,12 +126,12 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\iosxamarinextensionapp\iosxamarinextensionapp.csproj">
-      <Project>{392BCF3F-AD06-4471-8613-239CCE11299E}</Project>
+      <Project>{87043569-482C-475C-87D5-E8FD3D0000E7}</Project>
       <Name>iosxamarinextensionapp</Name>
     </ProjectReference>
     <ProjectReference Include="..\today\today.csproj">
       <IsAppExtension>true</IsAppExtension>
-      <Project>{609DA0E8-748F-493E-A6BA-E4C6C24393DB}</Project>
+      <Project>{92C5656E-653F-48C5-AA88-4FC6EA1854AA}</Project>
       <Name>today</Name>
     </ProjectReference>
   </ItemGroup>
