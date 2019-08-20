@@ -70,6 +70,7 @@
     <CodesignKey>iPhone Developer: Evgeniy Khramkov (3JP3XQN2VC)</CodesignKey>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
     <CodesignProvision>iosxamarinextensionapp.today</CodesignProvision>
+  </PropertyGroup>  
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
     <DebugType>full</DebugType>
     <Optimize>true</Optimize>
