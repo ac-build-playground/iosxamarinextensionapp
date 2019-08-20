@@ -56,7 +56,7 @@
     <CodesignKey>iPhone Developer: Evgeniy Khramkov (3JP3XQN2VC)</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
-    <CodesignProvision>com.evkhramk.iosxamarinextensionapp.today</CodesignProvision>
+    <CodesignProvision>iosxamarinextensionapp.today</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>full</DebugType>
@@ -69,8 +69,7 @@
     <ConsolePause>false</ConsolePause>
     <CodesignKey>iPhone Developer: Evgeniy Khramkov (3JP3XQN2VC)</CodesignKey>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
-    <CodesignProvision>com.evkhramk.iosxamarinextensionapp.today</CodesignProvision>
-  </PropertyGroup>
+    <CodesignProvision>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
     <DebugType>full</DebugType>
     <Optimize>true</Optimize>
@@ -81,7 +80,7 @@
     <MtouchArch>ARM64</MtouchArch>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <BuildIpa>true</BuildIpa>
-    <CodesignProvision>com.evkhramk.iosxamarinextensionapp.today</CodesignProvision>
+    <CodesignProvision>iosxamarinextensionapp.today</CodesignProvision>
     <CodesignKey>iPhone Developer: Evgeniy Khramkov (3JP3XQN2VC)</CodesignKey>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
   </PropertyGroup>
@@ -94,7 +93,7 @@
     <ConsolePause>false</ConsolePause>
     <MtouchArch>ARM64</MtouchArch>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
-    <CodesignProvision>com.evkhramk.iosxamarinextensionapp.today</CodesignProvision>
+    <CodesignProvision>iosxamarinextensionapp.today</CodesignProvision>
     <CodesignKey>iPhone Developer: Evgeniy Khramkov (3JP3XQN2VC)</CodesignKey>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
   </PropertyGroup>
